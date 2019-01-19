@@ -34,9 +34,14 @@ def parser(page_content):
                 
 #Book selection
 def selectBook():
-    folder = input("Choose folder:")
+    folder = input("Choose folder (if the script and the pdf are in the same file just type: no):")
+    if folder !='no':
+        folder = "\\"+folder
+    else:
+        folder =""
     name = input("Give name:")
-    directory = os.path.dirname(os.path.realpath(sys.argv[0]))+"\\"+folder+"\\"+name+".pdf"
+    name = "\\"+ name
+    directory = os.path.dirname(os.path.realpath(sys.argv[0]))+folder+name+".pdf"
     return str(directory)
 
 

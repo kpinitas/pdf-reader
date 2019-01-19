@@ -11,7 +11,11 @@
 
 3) Download the project
 
-4) Run the pdf reader.py
+4) Create your own folders inside the pdf reader folder
 
-*You can create your own folders inside the PDF READER folder also you can rename the PDF READER folder
-** You can put the PDF READER folder in any directory
+5) Run the pdf reader.py
+
+
+*You have create your own folders inside the PDF READER folder also you can rename the PDF READER folder
+
+* You can put the PDF READER folder in any directory
