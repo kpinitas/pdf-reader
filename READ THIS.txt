@@ -1,0 +1,17 @@
+
+1) Install Python3
+
+2) Install the required dependencies
+
+ - sys
+ - keyboard
+ - os
+ - PyPDF2
+ - pyttsx3
+
+3) Download the project
+
+4) Run the pdf reader.py
+
+*You can create your own folders inside the PDF READER folder also you can rename the PDF READER folder
+** You can put the PDF READER folder in any directory
