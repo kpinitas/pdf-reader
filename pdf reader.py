@@ -65,7 +65,7 @@ def reader():
     
     init_page = int( input("Choose page (starts from 0):"))
     stop_page = int( input("Choose page (for all pages whrite -1):"))
-    if stop_page == -1 or stop_page == -1:
+    if stop_page == -1:
         stop_page = number_of_pages
     init_row = int(input("Choose a specific row (starts from 0):"))
     
